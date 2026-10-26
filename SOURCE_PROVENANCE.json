@@ -1,0 +1,59 @@
+{
+  "release": "0.1.0",
+  "date": "2026-10-26",
+  "original_sources": [
+    {
+      "file": "pr_initialization.py",
+      "sha256": "d31f7be5989cd587c75aff1d13bcad26a4c2fb67e0b21b6e183cb6cde249b7c3",
+      "release_file": "structured_spike/initialization.py",
+      "change": "none"
+    },
+    {
+      "file": "rgb_representation.py",
+      "sha256": "1c15937cf7485fabf92815c788d62472576a5aa1a6156a0db520e921067b2664",
+      "change": "equations extracted into encoding.py; backbone excluded"
+    },
+    {
+      "file": "iclr_control_representation.py",
+      "sha256": "989d4c7a8b0c40066f106ea819b254bcf39b3f2cf8d6a32150dc586d1509325a",
+      "change": "equations extracted into encoding.py; legacy training inheritance excluded"
+    },
+    {
+      "file": "fusion_unet.py",
+      "sha256": "3de4c0bd16ee84566aded29993728a82885929ed7e925d5e3dd2a40644a2a061",
+      "change": "TemporalValueLayer equations only; no unrelated network"
+    },
+    {
+      "file": "eval_iclr_controls.py",
+      "sha256": "b7fdea3707a11bbde1fdb1dea74c2ab0145519aa435859e437fa3ece2f024ca1",
+      "change": "metric functions extracted with input validation and public aggregation wrapper"
+    },
+    {
+      "file": "restormer_adapter.py",
+      "sha256": "6cca9aa628cc517f08ec94dab74ab5db84748a36c3852e4e4cc220511b62c80b",
+      "change": "one import-path relocation"
+    },
+    {
+      "file": "test_pr_initialization.py",
+      "sha256": "2fc3ed0c939687f83de5d0f1ddcd847a6b911196f5355631f537f482eb3e2bea",
+      "change": "import-path relocation and explicit skip of historical bitwise-reduction tests on incompatible CPU runtime"
+    }
+  ],
+  "published_initializations": {
+    "source": "sealed CPU_IDENTITY_PASS.json initialization records for six CNN treatments",
+    "change": "selected fields only; no new selection; all permutations and matrix identities retained"
+  },
+  "published_file_sha256": {
+    "configs/study.json": "2f2f00da5a816c97c04132f898405399c5f004f5711e44fb55e08280afb95797",
+    "structured_spike/__init__.py": "2e4021ad732e07912e7489000fffe97a4d72c09c43e26612cb96335f5dc7f9f5",
+    "structured_spike/encoding.py": "5e3c27e50b63f43601bcf658eb3145707306e1685d2fce659654d469744338cd",
+    "structured_spike/initialization.py": "d31f7be5989cd587c75aff1d13bcad26a4c2fb67e0b21b6e183cb6cde249b7c3",
+    "structured_spike/metrics.py": "2f78f3bcdb686a4d560bec7cac4c0bc8d4d6210d842813b77f7b28398812f499",
+    "structured_spike/portable_initialization.py": "b0856e6fd55b9b70623f54324b868d14805f8f544ee82577c5e29ee9fd65b6f1",
+    "structured_spike/published_initializations.json": "07073e0b7706f5929d9e86813b92ef49c3978c1b075f15194314c7a916c372a7",
+    "structured_spike/restormer_adapter.py": "531e67c29ed8adc22ecbbd949dc6db1498a691eff1357a68dc2460869a6f2e13",
+    "structured_spike/third_party/RESTORMER_LICENSE.md": "2b93776512924bc095ec5d97a79d76cf1ab401ae641d1ae1f46e94f1c53a2e59",
+    "structured_spike/third_party/__init__.py": "7dd984e48646a0ed561f48a449b80703c334ed116321dbb7c1bd886a10f5880c",
+    "structured_spike/third_party/restormer_arch.py": "3be243fa3c8e2cb2c9459eeac062b04d6084dbcc328292dae1c3e52ba6f7434a"
+  }
+}

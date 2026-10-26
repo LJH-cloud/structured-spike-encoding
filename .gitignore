@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+.env*
+checkpoints/
+datasets/
+outputs/
+# Prepared locally; publication of result tables and sample IDs awaits confirmation.
+/results/
+/splits/
+*.pth
+*.pt
+*.ckpt
+*.dat
+*.log

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this software if you use its implementation. The manuscript has not been assigned publication metadata in this release."
+type: software
+title: "Structured Initialization Improves Learned Spike Encoding for Image Deblurring"
+authors:
+  - family-names: Lv
+    given-names: Jiahui
+  - family-names: Weng
+    given-names: Dawei
+  - family-names: Zou
+    given-names: Han
+  - family-names: Liu
+    given-names: Qingjie
+repository-code: "https://github.com/LJH-cloud/structured-spike-encoding"
+license: MIT
+version: 0.1.0
+date-released: 2026-10-26

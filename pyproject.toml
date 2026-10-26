@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "structured-spike-encoding"
+version = "0.1.0"
+description = "Structured temporal projection and initialization controls for spike-guided deblurring"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Jiahui Lv"}, {name = "Dawei Weng"}, {name = "Han Zou"}, {name = "Qingjie Liu"}]
+dependencies = ["torch>=2.0", "numpy>=1.24"]
+
+[project.optional-dependencies]
+restormer = ["einops>=0.6"]
+test = ["pytest>=7"]
+
+[project.urls]
+Repository = "https://github.com/LJH-cloud/structured-spike-encoding"
+
+[tool.setuptools.packages.find]
+include = ["structured_spike*"]
+
+[tool.setuptools.package-data]
+"structured_spike" = ["published_initializations.json"]
+"structured_spike.third_party" = ["*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
